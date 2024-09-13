@@ -1,0 +1,24 @@
+name: reproducibility
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib-inline=0.1.7=pyhd8ed1ab_0
+  - pip=24.0=py39haa95532_0
+  - python=3.9.19=h1aa4202_1
+  - python-dateutil=2.9.0=pyhd8ed1ab_0
+  - python_abi=3.9=2_cp39
+  - pip:
+      - altair==4.2.0
+      - arviz==0.17.1
+      - deneb==1.0.1
+      - matplotlib==3.9.1.post1
+      - numpy==1.24.4
+      - pandas==2.0.1
+      - sbibm==1.1.0
+      - scipy==1.12.0
+      - torch==2.4.0
+      - torchdyn==1.0.6
+      - tqdm==4.66.5
+      - future==1.0.0
+    
